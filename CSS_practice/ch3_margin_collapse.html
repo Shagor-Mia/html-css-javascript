@@ -1,0 +1,61 @@
+<!-- mostly use margin collapse -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Margin Collapse Document</title>
+    <style>
+        *
+        {
+            margin: 0;padding: 0;
+        }
+        .box1
+        {
+            height: 234px;
+            width: 321px;
+            margin: 23px;
+            padding: 20px;
+           background-color: aqua;
+           border: 5px greenyellow solid;
+           border-style: double;
+        }
+        .box2
+        {
+            height: 345px;
+            width: 345px;
+            margin: 21px;
+            padding: 14px;
+            border: 7px black solid;
+            background-color: blue;
+            color: white;
+            border-style: dotted;
+            /* box-sizing: content-box; */
+        }
+        .box3
+        {
+            box-sizing: border-box;
+            /* height:221px; */
+            width: 100%;
+            /* margin: 21px;   in box-sizing: ; margin not necessary to use */
+            padding: 4px;
+            border: 7px rgba(219, 4, 4, 0.889) solid;
+            background-color: rgb(218, 224, 236);
+            color: rgb(205, 20, 20);
+            border-style: double;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, officiis! Illo perferendis eos molestias maxime dolor aliquam est rem quis fugiat possimus iusto animi, velit consequatur placeat temporibus! Totam, ad? Officia, distinctio?
+    </div>
+    <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fuga cupiditate repellat veniam, nostrum earum asperiores optio excepturi, officiis, dolorem enim!
+        <div class="box3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit animi delectus voluptatibus.</div>
+    </div>
+    
+</body>
+</html>

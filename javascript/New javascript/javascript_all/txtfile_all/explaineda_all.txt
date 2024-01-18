@@ -1,0 +1,120 @@
+# 1.VARIABLES.....
+
+Three types of VARIABLES:
+ * var
+ * let
+ * const
+
+# 2.DATA TYPES.....
+ * string
+ * number
+ * boolean
+ * array[] (array is use to be objects in javascript)
+ * objects{}
+ * Null 
+ * undefined
+
+# 3.ARITHMETIC OPERATORS.......
+ 1.addition
+ 2.substraction
+ 3.multiplication
+ 4.division
+ 5.modulus(% remainder)
+ 6.exponentiation(** /power sign)
+ 7.increment/decrement
+
+ # 4.ASSIGNMENT OPERATORS.........
+  =
+ +=
+ -=
+ *=
+ /=
+ %=
+ **=
+
+ # 5.CONSOLE COMMANDS........
+  *console.log()
+  *console.table()
+  *console.error()
+  *console.warn()
+  *console.clear()
+  *console.timeEnd()
+
+ # 6.COMPARISON OPERATORS....
+  ==
+  ===
+  !=
+  !==
+  >
+  <
+  <=
+  >=
+
+ # 7.STATEMENTS.....
+   *if
+   *else if
+   *else
+
+ # 8.LOGICAL 0PERATORS...
+   &&
+   ||
+   ! 
+
+ # 9.TERNARY OPERATORS...
+   (condition)?:true statement or false statement
+ 
+
+ # 10.SWITCH STATEMENTS...
+    
+    switch(expression){
+    case condition 1:statement(s);
+    break;
+    case condition 2:statement(s);
+    break;
+    case condition 3:statement(s);
+    break;
+    default:statement(s);
+   } 
+
+  # 11.SOME BOX...
+    *alert()
+    *confirm()
+    *prompt()
+
+  # 12.functions.... 
+
+    function Func_Name(parameter){
+        statements;
+    }      
+    Func_Name();
+
+
+   # 13.JAVASCRIPT BASIC EVENTS.....
+     *click (onclick)                   *key press (onkeypress)
+     *double click (ondbclick)          *key up (onkeyup)
+     *right click (oncontextmenu)       *load   (onload)
+     *mouse hover (onmouseenter)        *unload  (onunload)
+     *mouse out (onmouseout)            *resize  (onresize)
+     *mouse down (onmousedown)          *scroll  (onscroll)
+     *mouse up (onmouseup) 
+   There are many events in javascript.
+
+
+   # 14.LOOPS....
+     *while loop 
+     *do while loop
+     *for loop
+     *for/in loop
+     *forEach
+
+   # 15.ARRAYS...
+     *short()        *slice()         *find()
+     *reverse()      *splice()        *findIndex()
+     *pop()          *isArray()       *includes()
+     *push()         *indexOf()       *some() 
+     *shift()        *lastIndexOf()   *forEach() 
+     *unshift()      *entries()       *ToString()
+     *concat()       *every()         *valueOf()
+     *join()         *filter()        *fill()
+
+     

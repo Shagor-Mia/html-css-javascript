@@ -1,0 +1,58 @@
+
+<!-- size units -->
+<!-- em= em means "my parent elements font size's "
+rem= units relative to the root font size(<html>tag)
+Vw = units relative to 1% viewport width
+Vh = units relative to 1% viewport height -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Position & List Document</title>
+    <style>
+        html{
+            /* font-size: 45px; */
+            margin: 0;padding: 0;
+        }
+        .container{
+            /* font-size: 45px; */
+            font-style: bold;
+        }
+        .class{
+            /* font-size: 23px; */
+            /* font-size: 2em; */
+            /* 2em=2*45px(previous parent size) */
+            /* font-size: 3rem; */
+            background-color: red;
+            height: 15vh;
+            width: 24vw;
+            /* display: inline-block; */
+            margin: 5px;
+            padding: 4px;
+        }
+        .class2{
+            background-color: aqua;
+            height: 15vh;
+            width: 23vw;
+            /* display: inline-block; */
+            margin: 3px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>this is paragraph</p>
+        <div class="class">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dicta. Doloribus libero a ex officia odio necessitatibus mollitia quasi fugit dolorum porro doloremque veritatis aut recusandae vitae natus, laudantium deserunt. Fugiat odit sed asperiores quo, sint esse.
+        </div>
+        <div class="class2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quos vero quibusdam.
+        </div>
+    </div>
+</body>
+</html>

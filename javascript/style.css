@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 3px 0px;
+    border: 2px solid pink;
+    padding: 8px;
+    background: red;
+}
+.bg-class{
+    background-color: blueviolet;
+}
+.class-succes
+{
+    color: blanchedalmond;
+}

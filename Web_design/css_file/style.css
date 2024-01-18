@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400;1,700&family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:var(--main-bg-color);
+    color: blue;
+    height: 64px;
+    /* border: 2px solid white; */
+    /* display: flex;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100px;
+    padding: 0 20px;
+}
+nav{
+    display: flex;
+    /* flex-direction: column; */
+}
+nav ul{
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style:none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: beige;
+    text-decoration: none;
+}
+nav ul li a:hover{
+   /* color: red; */
+   font-weight: bolder;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar input{
+    width: 30vw;
+    height: 22px;
+    margin:0 6px 0px 26px;
+    border-radius: 6px;
+    padding: 0 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+}
+.container{
+    min-height: calc(100vh - 64px - 34px);
+    
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto 12px auto;
+    overflow: hidden;
+}
+main img{
+    height: 400px;
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    padding: auto;
+}
+.card{
+    /* background-color: #b8c0cd; */
+    max-width: 91vw;
+    margin: 37px auto;
+    /* overflow: hidden; */
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.card-item{
+    width: 11vw;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.card-item img{
+    height: 120px;
+    width: 131px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: beige;
+    height: 34px;
+    font-family: 'Lato', sans-serif;
+}

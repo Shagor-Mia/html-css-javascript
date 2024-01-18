@@ -1,0 +1,66 @@
+<!-- 2D transform method
+1.translate()
+2.rotate()
+3.scale-x()
+4.scale-y()
+5.skew()
+6.matrix()
+7.scale()
+
+3D transform method
+MDN reference -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 500px;
+        }
+        .box{
+           
+            display: inline-block;
+            border: 2px green solid;
+            padding: 4px;
+            transform: translate(134px,123px) rotateX(45deg);
+            transform-origin: 0;
+           
+        }
+        
+        
+        img{
+            
+            /* transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+            transition-delay: 0s; */
+            /* transition: width 3s ease-in-out 0s; */
+            transition: width 2s ease-in,height 3s ease-in;
+        }
+        
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           
+          <img style="height: 330px; width: 233px;"id="myimg" src="img00.jpg">
+          <button id="btn">Toggle</button>
+        </div>
+        
+    </div>
+</body>
+<script>
+    btn.addEventListener("click",()=>{
+      myimg.style.width= "456px";
+      myimg.style.height= "400px";
+
+    })
+  </script>
+</html>

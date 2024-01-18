@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        margin: 0;padding: 0;
+     }
+     ul{
+        padding:  23px;
+     }
+     li{
+        list-style: none;
+        display: inline;
+        padding: 0 21px;
+     }
+     header{
+        background-color: aquamarine;
+        height: 66px;
+     }
+     .left{
+        height: 34vh;
+        width: 43vw;
+        /* float: left; */
+        padding: 12px;
+        background-color: blue;
+     }
+     .right{
+        height: 34vh;
+        width: 43vw;
+        padding: 12px;
+        background-color: brown;
+        /* float: right;   in flexbox we cant use float */
+     }
+     .container{
+        display: flex;
+        justify-content:space-between;
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Link</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+       <div class="left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus aspernatur ad quas neque molestiae eligendi! Doloremque perferendis ducimus itaque ipsa?
+       </div>
+       <div class="right">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur hic ducimus.
+       </div>
+    </div>
+</body>
+</html>

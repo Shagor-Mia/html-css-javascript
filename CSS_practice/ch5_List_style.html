@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Flow Document</title>
+    <style>
+        /* *{
+            margin: 0;padding: 0;
+        } */
+        header  {
+            /* margin: 2px;padding: 2px; */
+            background-color: black;
+            color: white;
+            height: 100px;
+            /* z-index: 1px  ; */
+        }
+        ul{
+            background-color: red;
+
+        }
+        li{
+            
+           
+            /* display: inline; */
+            /* list-style: circle; */
+            /* list-style:georgian outside; */
+            /* list-style: square inside; */
+            list-style: square outside;
+            /* list-style: square outside url('imge.jpeg'); */
+
+            
+           
+        }
+        .container{
+            margin: auto;
+            background-color: aqua;
+            padding: auto;
+            height: 450px;
+            width: 765px;
+            text-align: center;
+            color: black;
+            font-style: oblique;
+            /* border: 2px red solid; */
+        }
+        .box{
+            background-color: yellow;
+            text-align: center;
+            height: 23vh;
+            width: 25vh;
+            margin: 5px;
+            font-style: normal;
+            padding: auto;
+            position: relative;
+            /* position: absolute; */
+            /* position: fixed; */
+            /* position: sticky; */
+            top: 23px;
+            /* left: 234px; */
+            /* right: 32px; */
+
+        }
+        .box2{
+            background-color: rgb(58, 18, 166);
+            text-align: center;
+            height: 25vh;
+            width: 27vh;
+            margin: 5px;
+            font-style: normal;
+            padding: auto;
+            /* position: relative; */
+            /* top: 23px; */
+            /* left: 234px; */
+            /* right: 32px; */
+        }
+        p{
+            border: 5px red solid;
+            margin: 7px;
+            padding: 6px;
+            /* position: relative; */
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Link</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias veniam praesentium enim, sit saepe suscipit? Natus quia animi beatae dolor quam eum dignissimos?</p>
+       <div class="box">
+        i am a box
+       </div>
+       <div class="box2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere eligendi laborum quas?
+       </div>
+    </div>
+    <ul>
+        <li>banana</li>
+        <li>apple</li>
+        <li>mango</li>
+    </ul>
+    
+</body>
+</html>
